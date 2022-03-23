@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "2aa22f6f-0b27-42cb-9066-a3846c52455c",
+		"name": "Maven Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9000/HelloWorld?nom=SPOCK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/HelloWorld?nom=SPOCK",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"HelloWorld"
+					],
+					"query": [
+						{
+							"key": "nom",
+							"value": "SPOCK"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/HelloWorld2/MERRYCAT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/HelloWorld2/MERRYCAT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"HelloWorld2",
+						"MERRYCAT"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

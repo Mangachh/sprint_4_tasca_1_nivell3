@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "84977ffa-7d87-4abe-9455-89d4526018c4",
+		"name": "Gradle Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9001/HelloWorld?nom=PEPOTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9001/HelloWorld2/MARIELA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9001",
+					"path": [
+						"HelloWorld2",
+						"MARIELA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9001/HelloWorld2/MARIELA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9001/HelloWorld2/MARIELA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9001",
+					"path": [
+						"HelloWorld2",
+						"MARIELA"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
